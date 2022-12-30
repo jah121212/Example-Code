@@ -1,0 +1,5 @@
+/* My notes:
+ * index is a shadow variable, this will compile and run without error or warning,
+ * inner printf reports 5 and outer printf reports 8 as expected, but using shadow 
+ * variables is a bad idea as it is often confusing and leads to coding errors
+ */

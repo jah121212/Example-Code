@@ -1,0 +1,6 @@
+/* My notes:
+ * C is considered to be a language in which 'white space' has no impact.
+ * 'd = a/*c' is invalid but 'd = a/ *c' is valid C, in the first case '/*' is the start of a comment,
+ * when what we are really trying to do is divide by a dereferenced pointer.
+ * Are there any other example you can think of in which white space is important?
+ */ 

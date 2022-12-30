@@ -1,0 +1,8 @@
+/*
+ * My notes:
+ * function1 returns a pointer to a locally defined array.
+ * function2 returns a pointer to a static array, code is non-reenterant, how could this be resolved?
+ *     Talk about mutex/semaphore, could the array be passed in.
+ * main *(ptr + 10) out of range.
+ * Code compiles but returns a warning 'function retruns address of local variable', seg fault at execution
+ */
